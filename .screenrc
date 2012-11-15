@@ -29,12 +29,12 @@ hardstatus alwayslastline "%{= .K} [%t]%<%=%{= .R}@%H %=%{= .y} %Y/%m/%d%{= .m} 
 
 # C + left : prev
 # C + right : next
-bindkey "^[[1;5C" next
+#bindkey "^[[1;5C" next
 #bindkey "^[O5C" next
-#bindkey "^[[C" next
-bindkey "^[[1;5D" prev
+bindkey "^[[C" next
+#bindkey "^[[1;5D" prev
 #bindkey "^[O5D" prev
-#bindkey "^[[D" prev
+bindkey "^[[D" prev
 
 # Split resize
 bindkey "^[=" resize =
